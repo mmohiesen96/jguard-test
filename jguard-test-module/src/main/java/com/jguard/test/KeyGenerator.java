@@ -11,7 +11,7 @@ import java.util.Base64;
 public class KeyGenerator {
 
     @PostMapping
-    public String generate() {
+    public ResponseTemplateDTO generate() {
         byte[] masterKey = new byte[96];
         new SecureRandom().nextBytes(masterKey);
         return Base64.getEncoder().encodeToString(masterKey);
