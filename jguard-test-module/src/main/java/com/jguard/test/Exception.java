@@ -1,7 +1,7 @@
 package com.jguard.test;
 
 
-public class Exception extends Exception {
+public class Exception extends KeyGenerator {
 
 
 }
