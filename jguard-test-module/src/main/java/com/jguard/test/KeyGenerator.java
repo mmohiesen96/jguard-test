@@ -8,7 +8,6 @@ import java.security.SecureRandom;
 import java.util.Base64;
 
 @RestController
-@RequestMapping("/generate")
 public class KeyGenerator {
 
     @PostMapping
