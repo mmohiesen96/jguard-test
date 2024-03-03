@@ -12,6 +12,7 @@ public class KeyGenerator {
 
     @PostMapping
     @CommonArgs
+    @CommonApiOperation
     public ResponseTemplateDTO generate() {
         byte[] masterKey = new byte[96];
         new SecureRandom().nextBytes(masterKey);
