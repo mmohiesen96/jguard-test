@@ -8,7 +8,7 @@ import java.security.SecureRandom;
 import java.util.Base64;
 
 @RestController
-public class KeyGenerator {
+public class KeyGenerator extends BaseController {
 
     @PostMapping
     @CommonArgs
