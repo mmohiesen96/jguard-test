@@ -1,0 +1,3 @@
+config:
+  sonar:
+    retry: 10
