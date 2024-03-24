@@ -4,13 +4,11 @@ config:
 management:
   endpoint:
     health: 
-      enabled: true
+      enabled: false
     metrics: 
       enabled: true
     prometheus: 
       enabled: true
     info: 
-      enabled: true
-    restart: 
       enabled: true
       
