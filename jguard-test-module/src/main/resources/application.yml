@@ -1,3 +1,16 @@
 config:
   sonar:
     retry: 10
+management:
+  endpoint:
+    health: 
+      enabled: true
+    metrics: 
+      enabled: true
+    prometheus: 
+      enabled: true
+    info: 
+      enabled: true
+    restart: 
+      enabled: true
+      
